@@ -1,0 +1,58 @@
+.login{
+	background-color:#e4e4e4;
+	height: 100vh;
+}
+.login .yanzheng{
+	width: 90%;
+	margin: 0 auto;
+	border-bottom: 1px solid #696969;
+	height: 40px;
+	margin-top: 15px;
+	text-align: left;
+
+}
+.login .yanzheng .text{
+	width: 85%;
+	line-height: 35px;
+	border:0px;
+	background: #e4e4e4;
+	outline: 0;
+	margin-left: 10px;
+
+}
+
+.login .yanzheng .password{
+	width: 85%;
+	text-align: left;
+	line-height: 35px;
+	border:0px;
+	background: #e4e4e4;
+	outline: 0;
+	margin-left: 10px;
+}
+.login p span{
+	width: 3px;
+	height: 10px;
+	background: red;
+	display: inline-block;
+	/*border-radius: 4px;*/
+	margin-left: 10px;
+
+}
+.login .wenxintishi{
+	text-align: left;
+	padding-left: 10px;
+	margin-top: 30px;
+	font-size: 8px;
+}
+.login .tishi{
+	font-size: 8px;
+	text-align: left;
+	margin-left: 20px;
+	margin-top:10px;
+}
+
+.login p{
+	color:#87CEEB;
+}
+

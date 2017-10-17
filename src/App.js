@@ -1,13 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {
+  HashRouter,
+  Route,
+  Link
+} from 'react-router-dom'
+// import { Provider } from 'react-redux'
+// import store from './redux/store'
+// import {connect} from 'react-redux'
 
-class App extends Component {
+import Login from './component/Login/Login'
+import Head from './component/share/head'
+import Cantingye from './component/Cantingye/Cantingye'
+import Biaoti from './component/share/biaoti'
+
+
+import './App.css';
+import 'antd/dist/antd.css';
+
+class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        aaa
-      </div>
+
+    	
+    		<HashRouter>
+		      	<div className="App">
+		       		<Route path='/' exact component={Login} />
+              <Route path='/cantingye' component={Cantingye}/>
+		      	</div>
+		    </HashRouter>
+      
     );
   }
 }

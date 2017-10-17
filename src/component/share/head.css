@@ -1,0 +1,12 @@
+.head{
+	width: 100%;
+	background:	#4169E1;
+	height: 50px;
+
+}
+.head h3{
+	line-height: 50px;
+	float:left;
+	text-align: center;
+	
+}

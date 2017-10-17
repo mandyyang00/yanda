@@ -1,0 +1,36 @@
+.biaoti{
+	width: 98%;	
+	margin: 0 auto;
+	height: 50px;
+	position: relative;
+	/*background-color: #009dd9;
+	
+	margin-top: 10px;
+	border-radius: 0px 20px 20px 0px */
+}
+
+.biaoti .left{
+	width: 100%;
+	float: left;
+	height: 1px;
+	background: #aaaaaa;
+	margin-top: 26px;
+}
+
+.biaoti  div{
+	
+	min-width: 60px;
+	background-color: #fff;	
+	display: inline-block;
+	color:#009dd9;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: left;
+	text-align: center;
+	position: absolute;
+	top:24%;
+	/*border:1px solid red;*/
+	left:0px;
+
+	
+}

@@ -14,10 +14,12 @@
     "redux": "^3.7.2",
     "script": "^0.1.4"
   },
+ 
   "scripts": {
     "start": "set PORT=3002 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
+
 }
