@@ -1,0 +1,38 @@
+{
+	background-color:white;
+	/*height: 100vh;*/
+}
+.banner{
+	width: 97%;
+	height: 150px;
+	margin: 0 auto;
+	background-color:#009dd9 ;
+	box-sizing:border-box;
+	border:1px solid #2F4F4F;
+	border-radius: 5px;
+	margin-top: 2px;
+}
+.banner .bannerlittle{
+	width: 96%;
+	height: 136px;
+	margin: 0 auto;
+	background-color:white ;
+	box-sizing:border-box;
+	border:1px solid #2F4F4F;
+	border-radius: 5px;
+	margin-top: 7px;
+}
+.banner .img{
+	width: 98%;
+	height: 128px;
+	margin:0 auto;
+	background-image: url('../img/1545845004.jpg');
+	background-size: 100% 100%;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+	box-sizing:border-box;
+	border:1px solid #2F4F4F;
+	border-radius: 5px;
+	
+}

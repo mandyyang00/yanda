@@ -1,0 +1,128 @@
+.bestdish{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+.bestdish .liebiao{
+	width: 96%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	margin-top: 10px;
+	height: 80px;
+	/*border-bottom: 2px solid #3A5FCD;
+	box-shadow: 4px 4px 3px 1px #aaaaaa ;*/
+}
+
+
+.bestdish .tupian{
+	width: 22%;
+	height: 70px;
+	border:1px solid #aaaaaa;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px #8B8B83;
+	float:left;
+}
+.bestdish .tupian img{
+	width: 100%;
+	height: 100%;
+	/*border:1px solid red;*/
+}
+.bestdish .content{
+	width: 75%;
+	margin-left: 24%;
+	text-align: left;
+	line-height: 25px;
+
+}
+.bestdish .top{
+	width: 100%;
+	overflow: hidden;
+	line-height: 25px;
+}
+.bestdish .content h3{
+	font-weight: bold;
+	
+	float:left;
+}
+.bestdish .top div{
+	float:right;
+	min-width: 60px;
+	margin-left: 5px
+}
+.bestdish .content .down{
+	font-size: 12px;
+	line-height: 20px
+}
+
+
+.bestdish .shadow{
+	width: 96%;
+	margin: 0 auto;
+	height: 2px;
+	background:#3A5FCD;
+	box-shadow: 4px 4px 3px 1px #aaaaaa
+}
+
+
+
+
+
+.bestdish .pinglunqu{
+	width: 96%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+
+.bestdish .addpinglun{
+	width: 96%;
+	margin: 0 auto;
+	border-bottom: 1px dashed #aaaaaa;
+	overflow: hidden;
+	padding-bottom: 10px;
+}
+.bestdish textarea{
+	width: 100%;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	text-indent: 10px;
+	resize:none;
+}
+.bestdish .addpicture{
+	width: 60%;
+	margin-top: 9px;
+	float:left;
+}
+
+
+
+
+.bestdish .allpinglun{
+	width: 98%;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	
+
+}
+.bestdish .allpinglun h2{
+	padding-bottom: 10px;
+
+}
+.bestdish .allpinglun h4{
+	line-height: 26px;
+	color:blue;
+
+}
+.bestdish .pingluncontent{
+	max-width: 100%;
+	line-height: 18px;
+	/*text-indent: 10px;*/
+}
+.bestdish .pinglunpicture{
+	max-width: 70px;
+	margin:8px 2px 5px 0;
+}

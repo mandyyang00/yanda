@@ -1,28 +1,9 @@
-.cantingye{
+.shopye{
 	background-color:white;
 	/*height: 100vh;*/
 }
-/*.cantingye .banner{
-	width: 97%;
-	height: 150px;
-	margin: 0 auto;
-	background-color:#009dd9 ;
-	box-sizing:border-box;
-	border:1px solid #2F4F4F;
-	border-radius: 5px;
-	margin-top: 2px;
-}
-.cantingye .bannerlittle{
-	width: 96%;
-	height: 136px;
-	margin: 0 auto;
-	background-color:white ;
-	box-sizing:border-box;
-	border:1px solid #2F4F4F;
-	border-radius: 5px;
-	margin-top: 7px;
-}*/
-.cantingye .img{
+
+.shopye .img{
 	width: 98%;
 	height: 128px;
 	margin:0 auto;
@@ -37,8 +18,8 @@
 	
 }
 
-.cantingye .liebiao{
-	width: 97%;
+.shopye .liebiao{
+	width: 96%;
 	margin: 0 auto;
 	padding-bottom: 20px;
 	margin-top: 20px;
@@ -47,7 +28,7 @@
 }
 
 
-.cantingye .tupian{
+.shopye .tupian{
 	width: 22%;
 	height: 70px;
 	border:1px solid #aaaaaa;
@@ -55,40 +36,40 @@
 	box-shadow: 5px 5px 5px #8B8B83;
 	float:left;
 }
-.cantingye .tupian img{
+.shopye .tupian img{
 	width: 100%;
 	height: 100%;
 	/*border:1px solid red;*/
 }
-.cantingye .content{
+.shopye .content{
 	width: 75%;
 	margin-left: 24%;
 	text-align: left;
 	line-height: 25px;
 
 }
-.cantingye .top{
+.shopye .top{
 	width: 100%;
 	overflow: hidden;
 	line-height: 25px;
 }
-.cantingye .content h3{
+.shopye .content h3{
 	font-weight: bold;
 	
 	float:left;
 }
-.cantingye .top div{
+.shopye .top div{
 	float:right;
 	min-width: 60px;
 	margin-left: 5px
 }
-.cantingye .content .down{
+.shopye .content .down{
 	font-size: 12px;
 	line-height: 20px
 }
 
 
-.cantingye .shadow{
+.shopye .shadow{
 	width: 97%;
 	margin: 0 auto;
 	height: 2px;

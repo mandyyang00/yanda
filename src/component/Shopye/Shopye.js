@@ -1,5 +1,5 @@
 import React from 'react'
-import './cantingye.css'
+import './shopye.css'
 import {Link} from 'react-router-dom'
 import {Icon,Button} from 'antd'
 import axios from 'axios'
@@ -8,18 +8,16 @@ import Banner from '../Banner/Banner'
 
 
 
-
-class Cantingye extends React.Component{
+class Shopye extends React.Component{
 	constructor(){
 		super()
 		this.state={
-			titles:'餐厅风采',
-			biaoti:'首页'
+			biaoti:'大榕树餐厅'
 		}
 	}
 	render(){
 		return(
-			<div className='cantingye'>
+			<div className='shopye'>
 
 
 				<Banner/>
@@ -30,11 +28,11 @@ class Cantingye extends React.Component{
 				<div>
 					<div className='liebiao'>
 						<div className='tupian'>
-							<img src={require('../img/1.jpg')}/>
+							<img src={require('../img/webwxgetmsgimg.jpg')}/>
 						</div>
 						<div className='content'>
 							<div className='top'>
-								<h3>大榕树餐厅</h3>
+								<h3>三叔面皮</h3>
 								<div>2333</div>
 								<Icon type="like" style={{'float':'right','color':'red','lineHeight':'25px'}}> </Icon>
 								
@@ -46,14 +44,15 @@ class Cantingye extends React.Component{
 				</div>
 
 
+				
 				<div>
 					<div className='liebiao'>
 						<div className='tupian'>
-							<img src={require('../img/1.jpg')}/>
+							<img src={require('../img/webwxgetmsgimg.jpg')}/>
 						</div>
 						<div className='content'>
 							<div className='top'>
-								<h3>大榕树餐厅</h3>
+								<h3>三叔面皮</h3>
 								<div>2333</div>
 								<Icon type="like" style={{'float':'right','color':'red','lineHeight':'25px'}}> </Icon>
 								
@@ -63,7 +62,6 @@ class Cantingye extends React.Component{
 					</div>
 					<div className='shadow'></div>
 				</div>
-
 
 
 				
@@ -74,4 +72,4 @@ class Cantingye extends React.Component{
 	}
 }
 
-export default Cantingye
+export default Shopye
