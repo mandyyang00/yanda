@@ -1,7 +1,7 @@
-.branchadministrator{
+.controlreataurant{
 	width: 100%;
 }
-.branchadministrator table{
+.controlreataurant table{
 	width: 100%;
 	margin: 0 auto;
 	border-collapse:collapse;
@@ -9,7 +9,7 @@
 	
 }
 
-.branchadministrator td{
+.controlreataurant td{
 	/*border:1px solid #aaaaaa;*/
 	height: 30px;
 	text-align: center

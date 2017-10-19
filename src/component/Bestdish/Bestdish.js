@@ -5,6 +5,7 @@ import {Icon,Button,Tabs} from 'antd'
 import axios from 'axios'
 import Biaoti from '../share/biaoti'
 import Banner from '../Banner/Banner'
+import Mycomments from '../share/Mycomments'
 
 
 
@@ -63,7 +64,12 @@ class Bestdish extends React.Component{
 
 
 					<div className='allpinglun'>
-						<h2>所有评论</h2>
+						<h2>所有评论
+
+							<span style={{'float':'right','border':'1px solid red','width':'60px','lineHeight':'20px','fontSize':'12px','color':'#009dd9'}}><Mycomments/>
+							</span>
+							
+						</h2>
 						<div style={{'borderBottom': '1px dashed #aaaaaa'}}>
 							<h4>152动员软件6789</h4>
 							<div className='pingluncontent'>所哟普评论内容就是打不过粉红色灯光v发货的v不杀光发货速度v不会受到广泛v成都v合适的v</div>

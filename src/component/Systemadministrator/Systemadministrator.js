@@ -21,22 +21,22 @@ class Systemadministrator extends React.Component{
 
 
 	showModal = () => {
-    this.setState({
-      visible: true,
-    });
-  }
-  handleOk = (e) => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
-  }
-  handleCancel = (e) => {
-    console.log(e);
-    this.setState({
-      visible: false,
-    });
-  }
+	    this.setState({
+	      visible: true,
+	    });
+  	}
+  	handleOk = (e) => {
+	    console.log(e);
+	    this.setState({
+	      visible: false,
+	    });
+  	}
+  	handleCancel = (e) => {
+	    console.log(e);
+	    this.setState({
+	      visible: false,
+	    });
+  	}
 
 
 	render(){
@@ -87,7 +87,24 @@ class Systemadministrator extends React.Component{
 
 					    	<Icon type="minus-circle" style={{'fontSize':'30px','marginTop':'40px','width':'50%'}}/>
 					    </TabPane>
-					    <TabPane tab="其他系统设置" key="2">Content of Tab Pane 2</TabPane>
+
+
+					    <TabPane tab="其他系统设置" key="2">
+					    	<ul style={{'width':'94%','textAlign':'left','margin':'0 auto','lineHeight':'30px'}}>
+					    		<li>
+					    			<span style={{'width':'60px','display':'inline-block'}}>网址：
+					    			</span>
+					    			<input type='text' style={{'border':'0','outline':'0','borderBottom':'1px solid #aaaaaa','width':'70%','textIndent':'10px'}}/>
+					    		</li>
+					    		<li>
+					    			<span style={{'width':'60px','display':'inline-block'}}>发送方式：
+					    			</span>
+					    			<input type='text' style={{'border':'0','outline':'0','borderBottom':'1px solid #aaaaaa','width':'70%','textIndent':'10px'}}/>
+					    		</li>
+					    	</ul>
+					    </TabPane>
+
+
 				  	</Tabs>
 				</div>
 			</div>
