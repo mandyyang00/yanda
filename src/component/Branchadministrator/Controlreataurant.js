@@ -47,9 +47,10 @@ class Controlreataurant extends React.Component{
 					    <thead>
 						    <tr>
 						    	<td style={{'width':'10%'}}>序号</td>
-						    	<td style={{'width':'50%'}}>档口名称</td>
-						    	<td style={{'width':'20%'}}>查看</td>
-						    	<td style={{'width':'23%'}}>选中</td>
+						    	<td style={{'width':'40%'}}>档口名称</td>
+						    	<td style={{'width':'15%'}}>编辑</td>
+						    	<td style={{'width':'15%'}}>选中</td>
+						    	<td style={{'width':'20%'}}>查看评论</td> 
 						    	
 						    </tr>
 					    </thead>
@@ -63,6 +64,9 @@ class Controlreataurant extends React.Component{
 						    	</td>
 						    	<td>
 						    		<input type='checkbox'/>
+						    	</td>
+						    	<td>
+						    		<Link to='shopcomments'>评论</Link>
 						    	</td>
 						    </tr>
 

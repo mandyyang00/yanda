@@ -66,8 +66,10 @@ class Bestdish extends React.Component{
 					<div className='allpinglun'>
 						<h2>所有评论
 
-							<span style={{'float':'right','border':'1px solid red','width':'60px','lineHeight':'20px','fontSize':'12px','color':'#009dd9'}}><Mycomments/>
-							</span>
+							<Link to='/mycomments'>
+								<span style={{'float':'right','width':'60px','lineHeight':'20px','fontSize':'12px','color':'#009dd9'}}>我的评论
+								</span>
+							</Link>
 							
 						</h2>
 						<div style={{'borderBottom': '1px dashed #aaaaaa'}}>

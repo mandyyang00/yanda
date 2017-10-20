@@ -120,7 +120,7 @@ class Chiefadministrator extends React.Component{
 					    		<tbody>
 						    		<tr>
 						    			<td>1</td>
-						    			<td>111111111111</td>
+						    			<td><Link to='/controlreataurant'>111111111111</Link></td>
 						    			<td>
 						    				<input type="checkbox"/>
 						    			</td>

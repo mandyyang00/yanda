@@ -17,6 +17,8 @@ import Banner from './component/Banner/Banner'
 import Shopye from './component/Shopye/Shopye'
 import Oneshop from './component/Oneshop/Oneshop'
 import Bestdish from './component/Bestdish/Bestdish'
+import Shopcomments from './component/Shopcomments/Shopcomments'
+import Forgetpassword from './component/Forgetpassword/Forgetpassword'
 
 import Systemadministrator from './component/Systemadministrator/Systemadministrator'
 import Chiefadministrator from './component/Chiefadministrator/Chiefadministrator'
@@ -27,6 +29,10 @@ import Controlbranchadministrator from './component/Chiefadministrator/Controlbr
 import Controlreataurant from './component/Branchadministrator/Controlreataurant'
 import Onereataurant from './component/Branchadministrator/Onereataurant'
 import Addbestdish from './component/Branchadministrator/Addbestdish'
+
+
+
+
 
 
 import './App.css';
@@ -51,7 +57,9 @@ class App extends React.Component {
               <Route path='/controlreataurant' component={Controlreataurant}/>
               <Route path='/onereataurant'  component={Onereataurant}/>
               <Route path='/addbestdish'  component={Addbestdish}/>
-              
+              <Route path='/mycomments'  component={Mycomments}/>
+              <Route path='/shopcomments'  component={Shopcomments}/>
+              <Route path='/forgetpassword'  component={Forgetpassword}/>
 		      	</div>
 		    </HashRouter>
       

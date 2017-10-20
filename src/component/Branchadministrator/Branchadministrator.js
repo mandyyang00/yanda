@@ -27,7 +27,7 @@ class Branchadministrator extends React.Component{
 						    <tr>
 						    	<td style={{'width':'20%'}}>序号</td>
 						    	<td style={{'width':'50%'}}>餐厅名称</td>
-						    	<td style={{'width':'30%'}}>编辑</td>
+						    	<td style={{'width':'30%'}}>查看</td>
 						    	
 						    </tr>
 					    </thead>

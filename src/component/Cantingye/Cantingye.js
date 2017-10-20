@@ -28,6 +28,7 @@ class Cantingye extends React.Component{
 				<Biaoti biaoti={this.state.biaoti}></Biaoti>
 
 				<div>
+					<Link to='/shopye'>
 					<div className='liebiao'>
 						<div className='tupian'>
 							<img src={require('../img/1.jpg')}/>
@@ -43,6 +44,7 @@ class Cantingye extends React.Component{
 						</div>
 					</div>
 					<div className='shadow'></div>
+					</Link>
 				</div>
 
 

@@ -27,7 +27,7 @@ class Login extends React.Component{
 					<input type='text' className='password' placeholder='验证码'/>
 					<Button type="primary" style={{'float':'right'}}>获取验证码</Button>
 				</div>
-				<Button type="primary" style={{'marginTop':'30px'}}>登陆</Button>
+				<Link to='/cantingye'><Button type="primary" style={{'marginTop':'30px'}}>登陆</Button></Link>
 				<p className='wenxintishi'><span></span> 温馨提示</p>
 				<p className='tishi'>请使用手机号绑定注册燕大餐饮进行留言评价<br/>燕大餐饮不会泄露您的个人隐私</p>
 				<p style={{'margin':'55% 0 0 0','lineHeight':'20px'}}>技术支持：秦皇岛东元软件科技有限公司</p>

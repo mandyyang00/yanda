@@ -5,6 +5,7 @@ import {Icon,Button,Tabs} from 'antd'
 import axios from 'axios'
 import Biaoti from '../share/biaoti'
 import Banner from '../Banner/Banner'
+import Mycomments from '../share/Mycomments'
 
 
 const TabPane = Tabs.TabPane;
@@ -44,6 +45,7 @@ class Shopye extends React.Component{
 
 
 					    	<div>
+								<Link to='/bestdish'>
 								<div className='liebiao'>
 									<div className='tupian'>
 										<img src={require('../img/webwxgetmsgimg.jpg')}/>
@@ -59,6 +61,7 @@ class Shopye extends React.Component{
 									</div>
 								</div>
 								<div className='shadow'></div>
+								</Link>
 							</div>
 
 
@@ -93,7 +96,14 @@ class Shopye extends React.Component{
 								<Button type="primary" style={{'float':'right','marginRight':'10px','marginTop':'5px'}} onClick={this.shangchuan.bind(this)} className="tijiao">提交</Button>
 							</div>
 							<div className='allpinglun'>
-								<h2>所有评论</h2>
+								<h2>所有评论
+
+								<Link to='/mycomments'>
+									<span style={{'float':'right','width':'60px','lineHeight':'20px','fontSize':'12px','color':'#009dd9'}}>我的评论
+									</span>
+								</Link>
+								</h2>
+
 								<div style={{'borderBottom': '1px dashed #aaaaaa'}}>
 									<h4>152动员软件6789</h4>
 									<div className='pingluncontent'>所哟普评论内容就是打不过粉红色灯光v发货的v不杀光发货速度v不会受到广泛v成都v合适的v</div>

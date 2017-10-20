@@ -60,7 +60,7 @@ class Systemadministrator extends React.Component{
 					    		<tbody>
 						    		<tr>
 						    			<td>1</td>
-						    			<td>11111</td>
+						    			<td><Link to='/chiefadministrator'>11111</Link></td>
 						    			<td>111111111111</td>
 						    			<td>
 						    				<input type="checkbox"/>
@@ -102,6 +102,12 @@ class Systemadministrator extends React.Component{
 					    			<input type='text' style={{'border':'0','outline':'0','borderBottom':'1px solid #aaaaaa','width':'70%','textIndent':'10px'}}/>
 					    		</li>
 					    	</ul>
+
+					    	<div style={{'width':'50%','display':'inline-block'}}>
+								<Icon type="save" style={{'fontSize':'30px','marginTop':'40px','background':'rgba(0,0,0,0.65)','color':'white','borderRadius':'50%'}}/>
+							</div>
+
+
 					    </TabPane>
 
 

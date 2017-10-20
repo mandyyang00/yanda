@@ -26,6 +26,7 @@ class Shopye extends React.Component{
 				<Biaoti biaoti={this.state.biaoti}></Biaoti>
 
 				<div>
+					<Link to='/oneshop'>
 					<div className='liebiao'>
 						<div className='tupian'>
 							<img src={require('../img/webwxgetmsgimg.jpg')}/>
@@ -41,6 +42,7 @@ class Shopye extends React.Component{
 						</div>
 					</div>
 					<div className='shadow'></div>
+					</Link>
 				</div>
 
 

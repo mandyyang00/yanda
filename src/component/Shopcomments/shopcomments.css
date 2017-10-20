@@ -1,8 +1,8 @@
-.mycomments{
+.shopcomments{
 	width: 100%;
 	margin: 0 auto;
 }
-.mycomments .allpinglun{
+.shopcomments .allpinglun{
 	width: 94%;
 	margin-top: 10px;
 	padding-bottom: 10px;
@@ -11,21 +11,21 @@
 	
 
 }
-.mycomments .allpinglun h2{
+.shopcomments .allpinglun h2{
 	padding-bottom: 10px;
 
 }
-.mycomments .allpinglun h4{
+.shopcomments .allpinglun h4{
 	line-height: 26px;
 	color:blue;
 
 }
-.mycomments .pingluncontent{
+.shopcomments .pingluncontent{
 	max-width: 100%;
 	line-height: 18px;
 	/*text-indent: 10px;*/
 }
-.mycomments .pinglunpicture{
+.shopcomments .pinglunpicture{
 	max-width: 70px;
 	margin:8px 2px 5px 0;
 }
